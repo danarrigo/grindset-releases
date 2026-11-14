@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.3.0",
-  "notes": "Desktop-sized workspace with persistent navigation and keyboard shortcuts. All social media combines 17 supported activities; Discord and other supported Windows apps now have native identifiers. Existing rules offer Add desktop coverage. Windows restriction activation now verifies foreground instead of silently leaving the warning behind an app."
+  "version": "1.3.1",
+  "notes": "Stronger Windows app restrictions: restricted apps are minimized when returned to, including through Alt-Tab. The explanation covers the whole monitor and cannot be moved, closed or minimized to bypass a block. Allowed apps remain usable, and the five-minute override restores the restricted app. Existing rules and data are preserved."
 }
