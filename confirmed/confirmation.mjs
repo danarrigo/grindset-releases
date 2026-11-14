@@ -7,7 +7,7 @@ export function confirmationState(search, hash) {
       message: "It may have expired or already been used. Return to Grindset and request a fresh confirmation email. If you already confirmed your email, try signing in instead.",
     };
   }
-  if (has("code") || params.some((p) => p.get("type") === "signup" && p.has("access_token"))) {
+  if (params.some((p) => p.get("code") || (p.get("type") === "signup" && p.get("access_token")))) {
     return {
       title: "Email confirmed",
       message: "Return to Grindset, open Settings and sign in with your email and password. You can close this browser tab. This page does not sign you in automatically.",
