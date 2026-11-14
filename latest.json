@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.1.0",
-  "notes": "Nine editable starter activities, ready-made website and Android identifiers, and improved large-text layouts. Tracking and permissions remain opt-in."
+  "version": "1.2.0",
+  "notes": "Settings now offers explicit update checks and browser downloads. Signup and resend use the public confirmation page once the hosted Auth Site URL is configured. Install over your existing release to retain data; nothing is silently installed."
 }
