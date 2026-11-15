@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.4.0",
-  "notes": "Rules now offers Schedule focus hours with multiple weekday/time windows and a visible account timezone, without starting a timer. Windows activity editors can find running/registered apps or browse for an executable. Existing rules, budgets and schedule windows are preserved. Tracking must stay enabled for enforcement."
+  "version": "1.5.0",
+  "notes": "Settings now shows observed tracking health and browser contact. Create device-local Work, Study and Sleep focus profiles, applied only after confirmation without changing budgets, schedules or timers. Activity offers weekly recorded insights, unknown-day markers and transparent current-budget comparisons. Existing data and rules are preserved."
 }
