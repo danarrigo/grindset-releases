@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.6.1",
-  "notes": "A new look: a G logo with a green crossbar on Android, Windows and the tray, and green as the one brand colour throughout the app. On Android the icon now fills your launcher's icon shape. Nothing else changes: your data, rules and permissions stay as they are."
+  "version": "1.6.2",
+  "notes": "Rules are easier: apps show by name with their icons, three plain choices for when to block (while you focus, after a daily limit, at set times), and a sentence that says exactly what will happen. Your rules, data and permissions stay as they are."
 }
