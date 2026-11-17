@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.5.0",
-  "notes": "Settings now shows observed tracking health and browser contact. Create device-local Work, Study and Sleep focus profiles, applied only after confirmation without changing budgets, schedules or timers. Activity offers weekly recorded insights, unknown-day markers and transparent current-budget comparisons. Existing data and rules are preserved."
+  "version": "1.6.0",
+  "notes": "Android installs are no longer blocked by Play Protect: app blocking now uses Display over other apps instead of Accessibility (re-enable it in Settings > Setup). The app is simpler: a setup checklist, plain wording, app icons, and daily-limit bars on rules. Time behind the block screen no longer counts as usage. Existing data and rules are preserved."
 }
