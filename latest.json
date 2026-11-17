@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.6.0",
-  "notes": "Android installs are no longer blocked by Play Protect: app blocking now uses Display over other apps instead of Accessibility (re-enable it in Settings > Setup). The app is simpler: a setup checklist, plain wording, app icons, and daily-limit bars on rules. Time behind the block screen no longer counts as usage. Existing data and rules are preserved."
+  "version": "1.6.1",
+  "notes": "A new look: a G logo with a green crossbar on Android, Windows and the tray, and green as the one brand colour throughout the app. On Android the icon now fills your launcher's icon shape. Nothing else changes: your data, rules and permissions stay as they are."
 }
