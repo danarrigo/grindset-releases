@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.6.4",
-  "notes": "Real logos: services and websites now show their own logo, fetched once from the service's own site and kept on your device. Your rules, data and permissions stay as they are."
+  "version": "1.6.5",
+  "notes": "Breaks are one tap: when focus finishes, the main button offers Start break, and after a break it offers Lock in. Your rules, data and permissions stay as they are."
 }
