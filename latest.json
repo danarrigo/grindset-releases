@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.6.2",
-  "notes": "Rules are easier: apps show by name with their icons, three plain choices for when to block (while you focus, after a daily limit, at set times), and a sentence that says exactly what will happen. Your rules, data and permissions stay as they are."
+  "version": "1.6.3",
+  "notes": "Find apps by name: type Google, Instagram or Netflix and pick it, including whole companies like all of Google in one tap. Installed apps show their real icons, now on Windows too. Your rules, data and permissions stay as they are."
 }
