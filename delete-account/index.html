@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src https://fajonmibrspfdozldjap.supabase.co; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Delete your account - Grindset</title>
+  <link rel="icon" href="../icon.svg" type="image/svg+xml">
+  <script type="module" src="delete.mjs"></script>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <main>
+    <a class="brand" href="../">Grindset</a>
+    <h1>Delete your account</h1>
+    <p>In the app: <strong>Settings &gt; Account &amp; cloud &gt; Delete account</strong>. If you no longer have the app, sign in below instead.</p>
+    <p>This permanently deletes your Grindset account and everything synced to it: rules, focus history and usage from every device. It happens immediately and cannot be undone. Nothing is kept afterwards.</p>
+    <p>If you never created an account, Grindset only ever stored your data on your own devices. Uninstalling the app or using <strong>Reset this device</strong> in Settings removes it.</p>
+    <form id="delete-form">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" autocomplete="username" required>
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" autocomplete="current-password" required>
+      <button class="button danger" type="submit">Delete my account</button>
+    </form>
+    <p id="status" role="status" aria-live="polite"></p>
+    <noscript><p>This page needs JavaScript to delete your account. You can also delete it in the app.</p></noscript>
+    <p class="secondary">Your email and password go only to Grindset's sign-in server. This page has no analytics, cookies or storage.</p>
+  </main>
+</body>
+</html>
