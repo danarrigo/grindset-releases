@@ -18,3 +18,4 @@ button.button { border: 0; cursor: pointer; justify-self: start; font-family: in
 button:disabled { opacity: .6; cursor: default; }
 ul { padding-left: 22px; }
 li { font-size: 17px; line-height: 1.7; color: #c7c7cc; margin: 4px 0; }
+[hidden] { display: none !important; }
