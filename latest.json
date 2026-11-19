@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.6.5",
-  "notes": "Breaks are one tap: when focus finishes, the main button offers Start break, and after a break it offers Lock in. Your rules, data and permissions stay as they are."
+  "version": "1.6.6",
+  "notes": "Stricter blocking: the 5-minute override is gone. Block whole categories like social media, messaging or games. The browser extension now works in Zen and Firefox. Your rules, data and permissions stay as they are."
 }
