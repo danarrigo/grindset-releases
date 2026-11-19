@@ -42,7 +42,8 @@ export async function deleteAccount(fetch, email, password) {
   return { ok: true, message: "Your account and all of its synced data are deleted. Devices keep what is stored on them until you reset them in Grindset Settings." };
 }
 
-if (typeof document !== "undefined") {
+// Only on the delete page itself: the reset page imports this module too.
+if (typeof document !== "undefined" && document.getElementById("delete-form")) {
   const form = document.getElementById("delete-form");
   const status = document.getElementById("status");
   form.addEventListener("submit", async (event) => {
