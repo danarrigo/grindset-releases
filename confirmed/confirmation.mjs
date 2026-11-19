@@ -19,7 +19,17 @@ export function confirmationState(search, hash) {
   };
 }
 
-if (typeof window !== "undefined") {
+// A password reset link that landed here (the sign-in server's default page)
+// belongs to the reset page, which needs the one-time sign-in it carries.
+export function recoveryRedirect(hash) {
+  return new URLSearchParams(hash.replace(/^#/, "")).get("type") === "recovery"
+    ? `../reset-password/${hash}`
+    : null;
+}
+
+if (typeof window !== "undefined" && recoveryRedirect(window.location.hash)) {
+  window.location.replace(recoveryRedirect(window.location.hash));
+} else if (typeof window !== "undefined") {
   const state = confirmationState(window.location.search, window.location.hash);
   // Never persist, exchange, display or forward credentials from the callback.
   window.history.replaceState(null, "", window.location.pathname);
