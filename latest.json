@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.6.8",
-  "notes": "Light or dark, your choice: Settings > Appearance offers System, Light and Dark. Your rules, data and permissions stay as they are."
+  "version": "1.6.9",
+  "notes": "Focus hours and strict mode: set times when your focus rules are on, and lock rules so they can only get stricter. Update all your devices before turning these on. Also fixes the block screen coming back after Go home."
 }
