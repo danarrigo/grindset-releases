@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.6.10",
-  "notes": "A calm breathing minute before you lock in, light mode on the Focus page, and on Windows, websites can be blocked and tracked even without the browser extension."
+  "version": "1.6.11",
+  "notes": "The Focus page now shows when Focus hours are on and what they block, and warnings are clear cards that take you to the fix."
 }
