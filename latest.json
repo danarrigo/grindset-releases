@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.6.9",
-  "notes": "Focus hours and strict mode: set times when your focus rules are on, and lock rules so they can only get stricter. Update all your devices before turning these on. Also fixes the block screen coming back after Go home."
+  "version": "1.6.10",
+  "notes": "A calm breathing minute before you lock in, light mode on the Focus page, and on Windows, websites can be blocked and tracked even without the browser extension."
 }
