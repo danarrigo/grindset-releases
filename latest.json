@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.6.11",
-  "notes": "The Focus page now shows when Focus hours are on and what they block, and warnings are clear cards that take you to the fix."
+  "version": "1.6.12",
+  "notes": "A short setup walkthrough on first launch, and on Windows, Grindset now reliably starts with Windows again."
 }
