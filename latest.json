@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.6.12",
-  "notes": "A short setup walkthrough on first launch, and on Windows, Grindset now reliably starts with Windows again."
+  "version": "1.6.13",
+  "notes": "Activity shows all your devices, the Focus page counts down Focus hours, and Android blocks apps reopened from Recents."
 }
