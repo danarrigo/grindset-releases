@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.6.15",
-  "notes": "Much lighter on Windows: Grindset no longer keeps a processor core busy. Setup also offers whole groups like Social media."
+  "version": "1.6.16",
+  "notes": "Set up another device faster with I already have an account, and Grindset rests while hidden in the Windows tray."
 }
