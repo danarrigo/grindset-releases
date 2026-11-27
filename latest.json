@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.6.18",
-  "notes": "Ask the AI for a few minutes in a blocked app or site, and a new look for block screens and setup."
+  "version": "1.6.19",
+  "notes": "Asking the AI for a few minutes from a block screen no longer waits first, and changing settings during a block no longer goes to the AI."
 }
