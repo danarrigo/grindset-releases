@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.6.17",
-  "notes": "Sync fixes: updating Grindset no longer stops Windows activity from syncing, and signing in on a device with its own rules no longer duplicates them."
+  "version": "1.6.18",
+  "notes": "Ask the AI for a few minutes in a blocked app or site, and a new look for block screens and setup."
 }
