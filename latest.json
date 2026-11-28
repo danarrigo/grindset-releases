@@ -1,5 +1,5 @@
 {
   "schema": 1,
-  "version": "1.6.20",
-  "notes": "A new Focus page: a bold timer with durations to tap, every app and site a session keeps shut, a progress bar while it runs, and today's focus so far."
+  "version": "1.6.21",
+  "notes": "Rules from your account now block during Focus hours and focus sessions on every device, not just their daily limits."
 }
